@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: yt-pubsub-demo
+camel:
+  springboot:
+    main-run-controller: true
+  component:
+    google-pubsub:
+      service-account-key: dogwood-actor-327302-6b570103f0b6.json
